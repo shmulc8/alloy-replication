@@ -4,6 +4,8 @@
 
 *Advanced Topics in Specification Engineering, Spring 2026*
 
+[github.com/shmulc8/AlloyEval](https://github.com/shmulc8/AlloyEval)
+
 ---
 
 ## Abstract
@@ -229,7 +231,7 @@ The gap between them quantifies the value of tool integration in LLM-based forma
 
 ## 8. Conclusion
 
-We replicated and extended the study by Hong et al. on LLM-based Alloy formula synthesis. Using Google Gemini models (2.5 Flash Lite and 2.5 Pro), we evaluated 12 task variants across 41 properties spanning five domains. Gemini 2.5 Pro matched or exceeded the original study's results on alloy2alloy and sketch2alloy. The guided and agent variants provide substantial improvements for weaker models (up to +24pp), while compiler feedback consistently outperforms self-critique. We also found that structured output constraints and prompt engineering are critical for reliable evaluation, eliminating spurious failures that inflated error rates by over 35% in early experiments. Our code and results are available at [github.com/shmulc8/alloy-replication](https://github.com/shmulc8/alloy-replication).
+We replicated and extended the study by Hong et al. on LLM-based Alloy formula synthesis. Using Google Gemini models (2.5 Flash Lite and 2.5 Pro), we evaluated 12 task variants across 41 properties spanning five domains. Gemini 2.5 Pro matched or exceeded the original study's results on alloy2alloy and sketch2alloy. The guided and agent variants provide substantial improvements for weaker models (up to +24pp), while compiler feedback consistently outperforms self-critique. We also found that structured output constraints and prompt engineering are critical for reliable evaluation, eliminating spurious failures that inflated error rates by over 35% in early experiments. Our code and results are publicly available.
 
 ---
 
