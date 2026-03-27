@@ -4,7 +4,7 @@ Evaluation benchmark for LLM-based Alloy formal specification generation. Replic
 
 **Key results:** Gemini 2.5 Pro achieves 100% on sketch completion and 95--100% on formula equivalence, comparable to the original study's o3-mini and DeepSeek R1. Guided prompting and compiler feedback improve the weaker Flash Lite model by up to 24 percentage points.
 
-See [`report/report.md`](report/report.md) for the full write-up.
+See the [full report (PDF)](report/AlloyEval.pdf) or [report.md](report/report.md).
 
 ---
 
